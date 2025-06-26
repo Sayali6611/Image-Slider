@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, rgb(175, 112, 190)); 
+}
+
+.slider-container {
+  background: rgb(235, 135, 227);
+  padding: 25px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+#slider {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 8px;
+  color:black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: darkgrey;
+  color: white;
+  transform: scale(1.05);
+}
